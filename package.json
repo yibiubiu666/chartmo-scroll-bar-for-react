@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "analyze": "webpack-bundle-analyzer --port 10086 dist/stats.json",
-    "start": "webpack-dev-server -p --mode development --host 0.0.0.0 --watch --hot --devtoll source-map",
+    "start": "webpack-dev-server --disableHostCheck=true -p --mode development --host 0.0.0.0 --watch --hot --devtoll source-map",
     "build": "webpack --mode production"
   },
   "devDependencies": {
