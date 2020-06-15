@@ -37,9 +37,12 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "echarts": "^4.7.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.5",
+    "perfect-scrollbar": "^1.5.0",
     "qs": "^6.9.3",
     "react": "^16.13.0",
-    "echarts": "^4.7.0",
     "react-dom": "^16.13.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2"

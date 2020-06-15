@@ -3,26 +3,36 @@
 .view-home {
   height: 100vh;
   .view-header {
-    position: relative;
-    height: 212px;
-    overflow: hidden;
-    .header__drawer {
-      position: absolute;
-      top: 72px;
-      left: 60px;
-      width: 60px;
-      height: 46px;
-    }
-    .header__plaza {
-      position: absolute;
-      top: 56px;
-      right: 14px;
-      width: 72px;
-      height: 46px;
+    width: 100vw;
+    height: 60px;
+    background: #cfcfcf;
+  }
+  .view-body {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    background: #eee;
+  }
+  .nav-container {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    align-items: center;
+    div {
+      min-width: 23vw;
+      text-align: center;
     }
   }
-  .news-list-container {
-    padding: 0 20px;
+  .body-container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    div {
+      min-height: 23vh;
+      text-align: center;
+    }
   }
-  
 }
